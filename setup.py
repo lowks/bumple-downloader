@@ -1,12 +1,11 @@
-from distutils.core import setup
+# -*- coding: utf-8 -*-
+from setuptools import setup
 
-setup_requires = [
-    'django',
-]
 
 setup(
     name='bumple-downloader',
-    version='0.1dev',
-    packages=['bumple-downloader',],
+    version='0.1.2',
+    packages=['bumple', ],
     license='Creative Commons Attribution-Noncommercial-Share Alike license',
+    requires=["Django", ],
 )
