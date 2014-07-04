@@ -27,7 +27,6 @@ class VkApi(object):
 
         return data['response']
 
-
     def get_audio(self, id, limit=30, offset=0):
         return self.get_response('audio.get', {
             'count': limit,
